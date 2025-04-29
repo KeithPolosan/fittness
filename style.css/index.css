@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    padding: 0;
+}     
+ header{   
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    width: 100%;
+    background-color:black;
+}
+.Banner Img{
+    width: 100%;
+}
+nav{
+    width: 100%;
+}
+nav ul{
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding: 20px;
+    transition: 3s;
+}
+nav ul li a{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+    color:white;
+}
+nav ul :hover{
+    background-color: blue;
+    transform: translateY(-6px);
+}
+.Img{
+    margin-top: 30px;
+    display: flex;
+    gap: 31px;
+    align-items: center;
+    justify-content: center;
+}
+.Img .box{
+box-shadow: 0px 0px 30px rgb(26, 25, 157);
+}
+.Box img:hover{
+    transform: translateY(-6px);
+   
+}
+.Box{
+    padding: 30px;
+}
+.Img img{
+    padding: 40px;
+    background-color: gray;
+    border-radius: 40px;
+    box-shadow: 40px;
+}
+.Box .Img{
+    
+    box-shadow: 0px 0px 10px rgb(26, 25, 25);
+    padding: 40px;
+}
+.Box h1{
+    font-size: 20px;
+    text-align: center;
+}
+Img{
+    margin-top: 30px;
+    display: flex;
+    gap: 31px;
+    align-items: center;
+    justify-content: left;
+}
+.Img .box{
+box-shadow: 0px 0px 30px rgb(26, 25, 157);
+}
+.Box img:hover{
+    transform: translateY(-6px);
+   
+}
+.Box{
+    padding: 30px;
+}
+.Img img{
+    padding: 40px;
+    background-color: gray;
+    border-radius: 40px;
+    box-shadow: 40px;
+}
+.Box .Img{
+    
+    box-shadow: 0px 0px 10px rgb(26, 25, 25);
+    padding: 40px;
+}
+.Box h1{
+    font-size: 20px;
+    text-align: center;
+}
+.title{
+    width: 100%;
+    h1{
+      text-align: center;
+      align-items: center;  
+    }
+}
+
